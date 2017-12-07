@@ -23,3 +23,4 @@ class InventoryItemsAdmin(admin.ModelAdmin):
 
 
 admin.site.register(InventoryItems,InventoryItemsAdmin)
+admin.site.site_header = 'Inventory Management'
